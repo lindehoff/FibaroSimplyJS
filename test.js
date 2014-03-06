@@ -10,12 +10,12 @@ var init = function(){
 	});
 	getRooms();
 }
+
 var getRooms = function(){
   simply.text({ title: 'Title', subtitle: 'Sub Tile', body: 'Body' });
 }
+
 var getRoom = function(){
-	simply.text({
-		title: "Getting Room",
-		body: "Wait while we fetch devices in room"
-	}, true);
+	simply.text({title: "Getting Room",	body: "Wait while we fetch devices in room"}, true);
+
 init();
