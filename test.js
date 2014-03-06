@@ -17,5 +17,5 @@ var getRooms = function(){
 
 var getRoom = function(){
 	simply.text({title: "Getting Room",	body: "Wait while we fetch devices in room"}, true);
-
+}
 init();
